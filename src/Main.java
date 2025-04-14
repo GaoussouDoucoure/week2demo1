@@ -2,7 +2,7 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) { //ARRAY OF STRINGS
-        Date d = new Date(0);
+        Date d = new Date(0); // the zero in parentheses refers to when they first started counting millisecond positively in 1970, ours might shows 8hrs behind midnight that is because we are PST
         char c = 'A'; // a single letter, number or symbol like a dollar sign or a space.
         String fullName = "Kevin Ernest Long"; // String is a collection of character similar to an array.
         String[] fruit = {"Apple", "Banana", "Cherry"}; // An Array ("list") or String
